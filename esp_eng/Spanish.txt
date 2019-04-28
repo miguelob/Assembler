@@ -1,0 +1,39 @@
+Titulo1::Programa para compilar archivos .asm con esamblador. 2 metodos: ::
+Titulo2::1. Escribir el codigo en este editor, guardarlo y compilarlo.::
+Titulo3::2. Cargar archivo externo y compilarlo.::
+Cargar::Cargar archivo::
+Compilar::Compilar::
+Guardar::Guardar::
+Extra::Otros::
+Tutorial::Moodle::
+Soporte::Soporte::
+Error guardar::Se ha producido algun error al guardar. Por favor, intentelo de nuevo.::
+Cancelar::Cancelar::
+Perdera contenido::si continua sin guardar se perdera el contenido::
+Aviso::Aviso::
+Error cargar::Se ha producido algun error al cargar. Por favor, intentelo de nuevo.::
+Error lectura::Se ha producido algun error al leer el archivo. Intentelo de nuevo.::
+Error extension::El archivo debe tener extension .asm o .txt::
+No archivo::Antes de compilar debe seleccionar un archivo o guardar el actual::
+Error extension comp::El archivo a compilar debe tener extension .asm::
+Contacto version::                 Version Beta 1.1 (16/4/19).::
+Contacto email::Email de contacto: miguel.oleo@alu.comillas.edu::
+Guardar compilador::Guardar salida del compilador::
+Guardar como::Guardar como::
+Archivo::Archivo::
+Guardar y salir::Guardar y salir::
+Salir::Salir::
+Teclas rapidas::Teclas rapidas::
+Hacer zoom::Hacer zoom::
+Quitar zoom::Quitar zoom::
+Deshacer::Deshacer::
+Rehacer::Rehacer::
+Error borrar::Error al borrar la carpeta ensamblador_tem.::
+Error wait::Se ha producido un error de tiempos de espera de ejecucion.::
+Error url::Se ha producido un error al abrir la pagina web de Moodle.::
+Error undo::Se ha producido algun error al intentar deshacer cambios.::
+Error redo::Se ha producido algun error al intentar rehacer cambios.::
+Error comp cmd::Se ha producido un error de cmd al intentar compilar.::
+Error comp general::Se ha producido algun error. Por favor, intentelo de nuevo.::
+Error comp cd::Se ha producido un error al cambiar de directorio para guardar .vhd::
+Error::Error::
