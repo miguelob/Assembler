@@ -1,3 +1,4 @@
+/** Paquete con la clase principal */
 package ensamblador.editor;
 
 import ensamblador.cmdcode.Compilador;
@@ -43,6 +44,8 @@ import javax.swing.JFrame;
 import java.awt.BorderLayout;
 import java.awt.event.KeyListener;
 import java.awt.event.KeyEvent;
+import java.awt.Cursor;
+import java.awt.Color;
 import java.awt.Desktop;
 import java.awt.Image;
 import java.net.URL;
@@ -143,6 +146,20 @@ public class Editor extends JFrame {
         jmenu2 = new JMenu(hmIdioma.get("Archivo").toString());
         jGuardar = new JMenuItem(hmIdioma.get("Guardar").toString());
         jGuardarComo = new JMenuItem(hmIdioma.get("Guardar como").toString());
+        jmenu1.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        jmenu2.setCursor(new Cursor(Cursor.HAND_CURSOR));
+
+        btnLoad.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        btnCompile.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        btnGuardar.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        btnLoad.setBackground(new Color(220,220,220));
+        btnCompile.setBackground(new Color(220,220,220));
+        btnGuardar.setBackground(new Color(220,220,220));
+        jTeoria.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        jSoporte.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        jTeclas.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        jGuardar.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        jGuardarComo.setCursor(new Cursor(Cursor.HAND_CURSOR));
 
         jmenu2.add(jGuardar);
         jmenu2.add(jGuardarComo);
