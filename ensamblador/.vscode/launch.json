@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JEnsamblador",
+            "request": "launch",
+            "mainClass": "ensamblador.ui.JEnsamblador"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JEnsamblador",
+            "request": "launch",
+            "mainClass": "JEnsamblador",
+            "projectName": "ensamblador_31b39f75"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JEnsamblador",
+            "request": "launch",
+            "mainClass": "JEnsamblador",
+            "projectName": "Ensamblador_951d4755"
+        }
+    ]
+}
