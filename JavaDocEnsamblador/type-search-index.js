@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"ensamblador.io","l":"Archivos"},{"p":"ensamblador.cmdcode","l":"Compilador"},{"p":"ensamblador.editor","l":"Editor"},{"p":"ensamblador.images","l":"Images"},{"p":"ensamblador.ui","l":"JEnsamblador"},{"p":"ensamblador.languages","l":"Languages"}]

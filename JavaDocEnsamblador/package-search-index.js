@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"ensamblador.cmdcode"},{"l":"ensamblador.editor"},{"l":"ensamblador.images"},{"l":"ensamblador.io"},{"l":"ensamblador.languages"},{"l":"ensamblador.ui"}]
