@@ -22,7 +22,7 @@ public class Archivos extends Exception
     }
     public static String errorCompilacion() throws Exception
     {
-        String mensajeError =  new String(Files.readAllBytes(Paths.get("/ensamblador_temp/error.txt")));
+        String mensajeError =  new String(Files.readAllBytes(Paths.get("./ensamblador_temp/error.txt")));
         return  mensajeError;
     }
     public static String cargar(String ruta) throws FileNotFoundException,IOException
