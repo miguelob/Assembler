@@ -22,6 +22,7 @@ import javax.swing.JLabel;
 import javax.swing.JMenu;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
+import javax.swing.UIManager;
 import javax.swing.event.UndoableEditEvent;
 import javax.swing.event.UndoableEditListener;
 import javax.swing.ImageIcon;
@@ -121,6 +122,11 @@ public class Editor extends JFrame {
      * Tambien incluye los distintos actionListener de los componentes y de algunas funcionalidades extra.
      */
     private void iniComponents() {
+        try{
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        }catch(Exception e){
+            e.printStackTrace();
+        }
         lblInfo = new JLabel("");
         undoManager = new UndoManager();
         lblTitle = new JLabel(hmIdioma.get("Titulo1").toString());

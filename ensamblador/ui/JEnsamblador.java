@@ -10,7 +10,7 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.ImageIcon;
-import javax.swing.border.*;
+import javax.swing.UIManager;
 import javax.swing.border.*;
 
 
@@ -44,16 +44,19 @@ public class JEnsamblador extends JFrame
         this.iniFrame();
     }
     private void iniComponentes(){
+        try{
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        }catch(Exception e){
+            e.printStackTrace();
+        }
         logoApp = new JLabel(new ImageIcon(urlIcono));
         lblLanguage = new JLabel("Language: ");
         btnEnglish = new JButton("English");
-        btnSpanish = new JButton("Spanish");
+        btnSpanish = new JButton("Español");
         lblSubtitles = new JLabel(subtlt);
 
         btnSpanish.setBackground(new Color(220,220,220));
         btnEnglish.setBackground(new Color(220,220,220));
-        //btnEnglish.setBorder(new RoundedBorder(10));
-        //btnSpanish.setBorder(new RoundedBorder(10));
         btnEnglish.setCursor(new Cursor(Cursor.HAND_CURSOR));
         btnSpanish.setCursor(new Cursor(Cursor.HAND_CURSOR));
     

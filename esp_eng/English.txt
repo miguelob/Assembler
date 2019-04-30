@@ -16,7 +16,7 @@ Error lectura::There was an error while reading the file. Please try again.::
 Error extension::The file must have extensions .asm or .txt::
 No archivo::Before compiling you must select a file or save current file::
 Error extension comp::The file to compile, needs to have extension .asm::
-Contacto version::                Version Beta 2.0 (28/4/19).::
+Contacto version::                Version Beta 2.0 (28/04/19).::
 Contacto email::Contact Email: miguel.oleo@alu.comillas.edu::
 Guardar compilador::Save compiler output.::
 Guardar como::Save as::
