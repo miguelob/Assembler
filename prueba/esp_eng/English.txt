@@ -1,0 +1,39 @@
+Titulo1::Program to complile .asm files with assembler. There are 2 methods: ::
+Titulo2::1. Write the code in this editor, save it and compile it.::
+Titulo3::2. Load external file and compile it.::
+Cargar::Load File::
+Compilar::Compile::
+Guardar::Save::
+Extra::Others::
+Tutorial::Moodle::
+Soporte::Support::
+Error guardar::There was an error while savin. Please try again.::
+Cancelar::Cancel::
+Perdera contenido::If you continue without savin, content will be lost.::
+Aviso::Warning::
+Error cargar::There was an error while loading. Please try again.::
+Error lectura::There was an error while reading the file. Please try again.::
+Error extension::The file must have extensions .asm or .txt::
+No archivo::Before compiling you must select a file or save current file::
+Error extension comp::The file to compile, needs to have extension .asm::
+Contacto version::                Version Beta 2.0 (28/04/19).::
+Contacto email::Contact Email: miguel.oleo@alu.comillas.edu::
+Guardar compilador::Save compiler output.::
+Guardar como::Save as::
+Archivo::File::
+Guardar y salir::Save and exit::
+Salir::Exit::
+Teclas rapidas::Shortcuts::
+Hacer zoom::Zoom in::
+Quitar zoom::Zoom out::
+Deshacer::Undo::
+Rehacer::Redo::
+Error borrar::There was an error while the folder ensamblador_temp::
+Error wait::There was an error in running waiting times.::
+Error url::There was an error while trying to launch Moodle website.::
+Error undo::There was an error while trying to undo changes.::
+Error redo::There was an error while trying to redo changes.::
+Error comp cmd::There was a cmd error while trying to compile.::
+Error comp general::There was an error. Please, try again.::
+Error comp cd::There was an error while trying to change directory to save .vhd::
+Error::Error::
