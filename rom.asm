@@ -14,7 +14,7 @@ fact:	addi r1, r0, 1
 	addi r1, r0, 1
 	jalr r6, r0
 		
-NoRet:	addi R7, r7, -2
+NoRet:	addi r7, r7, -2
 	sw r6, r7, 1
 	sw r2, r7, 0
 	addi r2, r2, -1

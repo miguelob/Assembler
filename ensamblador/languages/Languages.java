@@ -19,27 +19,21 @@ public class Languages
     private HashMap<String,String> hmLanguages = new HashMap<String,String>();
     private Scanner lectura;
 
-    public Languages(String ruta)
+    public Languages(String ruta) throws FileNotFoundException, IOException
     {
-        try{
-            lectura = new Scanner(new File(ruta));
-            lectura.useDelimiter("::");
-            String clave=null;
-            String asociado=null;
+        lectura = new Scanner(new File(ruta));
+        lectura.useDelimiter("::");
+        String clave=null;
+        String asociado=null;
 
-            while(lectura.hasNext())
-            {
-                clave = lectura.next();
-                asociado = lectura.nextLine();
-                asociado = asociado.replace("::","");
-                hmLanguages.put(clave,asociado);
-            }
-            lectura.close();    
-        }catch(Exception e)
+        while(lectura.hasNext())
         {
-            //A RELLENAR
-            e.printStackTrace();
-        }   
+            clave = lectura.next();
+            asociado = lectura.nextLine();
+            asociado = asociado.replace("::","");
+            hmLanguages.put(clave,asociado);
+        }
+        lectura.close();       
     }
     public HashMap<String,String> getLanguage()
     {
